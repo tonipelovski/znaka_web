@@ -14,10 +14,24 @@ ul.horizontal-navbar{
 	text-align:center;
 }
 
+img.gallery-images{
+	width: 300px;
+	height: 300px;
+	border-radius: 25px;
+}
+
 li.inline-list{
 	display:inline;
 	margin:20px;
 	float:right;
+	
+}
+
+ul.inline-list{
+	display:inline;
+	float:left;
+	width: 200px;
+	margin-right:5%;
 	
 }
 
@@ -36,8 +50,67 @@ div.background-div-second{
 	background-size: cover;
 }
 
+table, th, td{
+
+	padding: 30px;
+	margin: 0px auto;
+}
+
+.end-table{
+	padding: 0px;
+}
+
+.n-bordered{
+	border: 1px solid #939496;
+	border-collapse: collapse;	
+}
+.n-bordered{
+	border: none;
+}
+
+.n-bordered td{
+	border: 1px solid #939496;
+}
+
+.n-bordered tr:first-child td{
+	border-top: none;
+}
+
+.n-bordered tr:last-child td{
+	border-bottom: none;
+}
+
+.n-bordered tr td:first-child{
+	border-left: none;
+}
+
+.n-bordered tr td:last-child{
+	border-right: none;
+}
+
+div.followers-div{
+	padding:100px;	
+	height:350px;
+	background-color: #2e3033;
+	background-size: cover;
+}
+
+div.end-div{
+	padding:10px;	
+	height:300px;
+	background-color: #2e3033;
+	background-size: cover;
+}
+
+div.gallery-div{
+	padding:100px;	
+	height:1200px;
+	background-color: white;
+	background-size: cover;
+}
+
 div.vertical-div{
-	background-color: #acaeaf;
+	background-color: #6c6d6d;
 	padding: 20px;
 	border-radius: 12px;
 	margin: 0;
@@ -50,21 +123,21 @@ div.vertical-div{
 }
 
 a:link {
-	color: #f7f5f4;
+	color: #f9f9fc;
 	text-decoration: none;
 }
 
 a:visited {
 	text-decoration: none;  
-	color: #f7f5f4;
+	color: #f9f9fc;
 }
 
 a:hover {
-	color: #afa6a3;
+	color: #d4d4d6;
 }
 
 a:active {
-	color: #afa6a3;
+	color: #d4d4d6;
 }
 
 #donate{
