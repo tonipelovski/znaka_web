@@ -43,6 +43,15 @@ div.background-div{
 	background-size: cover;
 }
 
+div.campaigns{
+	
+	height:70px;
+	background-image: url("Znaka.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 div.background-div-second{
 	padding:100px;	
 	height:150px;
